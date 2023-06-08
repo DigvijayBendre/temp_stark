@@ -1,0 +1,475 @@
+/* Global Styles */
+
+/* Set basic styles for the entire page */
+body {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppo', sans-serif;
+    background: url(/images/Rectangle\ 3.jpg) no-repeat; /* Set background image */
+}
+
+/* Navbar Template 1 */
+/* Set styles for the first navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #156539;
+    color: #fff;
+    padding: 13px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 100px;
+    color: #fff;
+    font-size: small;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.icons {
+    margin-right: 80px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 69%; /* Move the links to the right */
+}
+
+.nav-links li {
+    margin-right: 15px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Navbar Template 2 */
+
+/* Set styles for the second navbar */
+.navbar-center {
+    display: flex;
+    justify-content: center;
+    background-color: #FEF1C0;
+    color: #fff;
+    overflow: hidden;
+    padding: 0; /* Decrease the padding size */
+}
+
+.navbar-center ul {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+}
+
+.navbar-center li {
+    margin-right: 2cm;
+}
+
+.navbar-center li:last-child {
+    margin-right: 0; /* Remove right margin for the last item */
+}
+
+.navbar-center li a {
+    color: green;
+    text-decoration: none;
+}
+
+
+/* Home Section */
+.Home1{
+    margin-right: 10px;
+    margin-top: 20%;
+    font-size: 30px;
+}
+.header-text h1 {
+    color: #FDB210;
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+.Home1 h1 {
+    color: #FDB210;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 20px;
+    font: normal normal bold 48px/38px Segoe UI;
+    text-align: left;
+    letter-spacing: 0.48px;
+    opacity: 1;
+}
+
+.Home1 p {
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.Home1 a {
+    display: inline-block;
+    background-color: #FDB210;
+    color: #fff;
+    font: normal normal bold 10px Segoe UI;
+    margin-left: 20px;
+    font-size: 10px;
+    padding: 12px 36px;
+    margin-top: 1px;
+    border-radius: 6px;
+
+}
+.Home1 {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)url(./images/Rectangle\ 1.jpg));
+}
+
+/* Bottem Navbar Section*/
+.navbar-center2 {
+    display: flex;
+    justify-content: center;
+    background-color: #156539;
+    color: #156539;
+    padding: 15px;
+    margin-top: 85px;
+  }
+  
+  .nav-links2 {
+    display: flex;
+    margin: 10px;
+    padding: 12px;
+    list-style: none; /* Remove default list styles */
+  }
+  
+  .nav-links2 li {
+    margin-right: 3cm;
+  }
+  
+  .nav-links2 li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links2 a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .transparent-icon {
+    opacity: 0.5; /* Adjust the opacity value as per your preference */
+    margin-right: 5px; /* Add spacing between the icon and the text */
+  }
+  
+
+/* Card Section*/
+.section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.section h1 {
+    color: #176639;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+}
+/* Swipper */
+
+.swiper-icon {
+    top: 1579px;
+    left: 1840px;
+    width: 20px;
+    height: 35px;
+    font-size: 24px;
+    color: #176639;
+    cursor: pointer;
+}
+
+.left-icon {
+    left: 15px;
+}
+
+.right-icon {
+    right: 15px;
+}
+
+/* cafe Restro wipper */
+.container1,
+.container2 {
+  display: flex;
+  align-items: center;
+}
+
+.textblock1,
+.textblock2 {
+  flex: 1;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: green;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.container1 {
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.container1 .textblock1 {
+  background: #FEF1C0;
+  border-radius: 0px 10px 10px 0px;
+  opacity: 1;
+  margin-left: 10px;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+.container1 .textblock1 img {
+  width: 80px;
+  height: auto;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+.container2 {
+  flex-direction: row-reverse;
+}
+
+.container2 .textblock2 {
+  background: #FEF1C0;
+  border-radius: 0px 10px 10px 0px;
+  opacity: 1;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.container2 .textblock2 img {
+  width: 8px;
+  height: 8px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+
+
+/* Sections Hover */
+
+
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 0fr));
+    grid-gap: 1cm;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  
+  .work1 {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .work1 img {
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+  }
+  
+  .layer {
+    width: 100%;
+    height: 0%;
+    background: transparent linear-gradient(180deg, #FFFFFF00 0%, #4A8865C6 46%, #176639 100%) 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    backdrop-filter: blur(35px);
+   -webkit-backdrop-filter: blur(35px);
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+  }
+  
+  .layer h3 {
+    font: normal normal bold 20px/30px Segoe UI;
+    color: whitesmoke;
+    font-size: small;
+    margin-bottom: 10px;
+    margin-right: 50px;
+  }
+  
+  .layer p3 {
+    letter-spacing: 0.18px;
+    font: normal normal normal 18px Segoe UI;
+    color: white;
+    margin-right: 70px;
+    font-size: smaller;
+    text-align: center;
+  }
+  
+  .work1:hover img {
+    transform: scale(1.5);
+  }
+  
+  .work1:hover .layer {
+    height: 100%;
+  }
+  
+/* Bottem Section */
+.Home2 a {
+    
+    display: inline-block;
+    background-color: #FDB210;
+    color: #fff;
+    font: normal normal bold 10px Segoe UI;
+    margin-left: 600px;
+    justify-content: center;
+    font-size: 15px;
+    padding: 12px 36px;
+    margin-top: 1px;
+    border-radius: 10px;
+
+}
+/*-------footer sections---------*/
+
+footer {
+    background-color: #156539;
+    padding: 20px;
+  }
+  
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3cm;
+  }
+  
+  .footer-column {
+    color: #f4f3f3;
+  }
+  
+  .footer-column h3 {
+    font: normal normal bold 20px/30px Segoe UI;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    font-size: small;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-column li {
+    margin-left: 30px;
+    margin-right: 30px;
+    font: normal normal normal 16px/20px Segoe UI;
+    margin-bottom: 5px;
+  }
+  
+  .footer-line {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    margin: 20px 0;
+  }
+  
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .footer-social i {
+    margin: 0 1cm;
+    color: white;
+    font-size: 24px;
+  }
+  
+  .Home3 a {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #010000;
+    font: normal normal bold 10px Segoe UI;
+    margin-left: 24px;
+    margin-right: 29PX;
+    font-size: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 2px;
+    
+  }
+
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .footer-social .footer-copyright {
+    color: white;
+    font-size: 14px;   
+  }
+  
